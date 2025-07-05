@@ -10,8 +10,10 @@
   "license": "ISC",
   "packageManager": "pnpm@10.12.4",
   "devDependencies": {
+    "@types/webpack": "^5.28.5",
     "webpack": "^5.99.9",
-    "webpack-cli": "^6.0.1"
+    "webpack-cli": "^6.0.1",
+    "wesl-plugin": "^0.6.9"
   },
   "dependencies": {
     "lodash": "^4.17.21"

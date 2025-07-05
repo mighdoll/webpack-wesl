@@ -1,10 +1,9 @@
-import _ from 'lodash';
+import wgsl from "../shaders/app.wesl?static";
 
 function component() {
-  const element = document.createElement('div');
+  const element = document.getElementById('code');
 
-  // Lodash, currently included via a script, is required for this line to work
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+  element.innerHTML = wgsl;
 
   return element;
 }
